@@ -2,7 +2,8 @@
   "name": "evil_chat",
   "private": true,
   "dependencies": {
-    "@rails/webpacker": "3.5"
+    "@rails/webpacker": "3.5",
+    "normalize.css": "^8.0.0"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.3",
@@ -15,6 +16,8 @@
     "lint-staged": "^7.1.0",
     "pre-commit": "^1.2.2",
     "prettier": "^1.12.1",
+    "stylelint": "^9.2.0",
+    "stylelint-config-standard": "^18.2.0",
     "webpack-dev-server": "2.11.2"
   }
 }
